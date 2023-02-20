@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgba(255, 245, 238, 0.9);
+    background-color: black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;    
+    line-height: 1.75;
+}
+
+h3, h4 {
+    font-size: 1rem;
+    font-weight: 600; 
+    line-height: 1.75;
+}
+
+h5 {
+    font-size: 0.75rem;
+    font-weight: 600; 
+}
+
+
+/* HEADER */
+
+header {
+    padding: 0.43rem 0.45rem;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+img#logo {
+    height: 2.27rem;
+    justify-content: flex-start;
+    opacity: 0.9;
+}
+
+ul.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header li {
+    text-decoration: underline;
+    margin: 0 0.65rem;
+}
+
+/* MAIN */
+
+main {
+    position: relative;
+    top: 3rem;
+}
+
+.mission {
+    background-color: blue;
+    height: 31.8rem;
+    background-image: url(../img/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission .heading {
+    background-color: black;
+    width: 100%;
+}
+
+/* TEA OF THE MONTH */
+
+#month {
+    width: 45.45rem;
+    margin: 0 auto 3rem auto;
+    padding-top: 3.5rem;
+}
+
+#month .heading {
+    margin-bottom: 0.7rem;
+}
+
+.teas1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+}
+
+.teas2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea img {
+    max-height: 9.09rem;
+}
+
+.teas2 img {
+    margin: 0 1rem;
+}
+
+/* LOCATIONS  */
+
+#locations {
+    background-image: url(../img/img-locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22.73rem;
+    margin: 0 2rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#locations .heading {
+    background-color: rgba(0, 0, 0, 0.0);
+    margin-bottom: 0.68rem;
+}
+#locations .heading h2 {
+    background-color: rgba(0, 0, 0, 0.0);
+    line-height: 1;
+}
+
+.offices {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.offices .office {
+    margin: 0 0.91rem;
+    padding: 0.5rem;
+    width: 13.63rem;
+    height: 12rem;
+}
+
+.office p {
+    margin: 1.5rem auto;
+}
+
+/* FOOTER */
+
+.contact {
+    height: 9.1rem;
+}
+
+.contact h5 {
+    margin: 1.5rem auto;
+}
+
+.copyright {
+    height: 3rem;
+    padding: 0 0.91rem;
+}
+
+.copyright h5 {
+    text-align: left;
+}
